@@ -19,7 +19,7 @@ import java.util.Objects;
 
 @RestController
 @RequestMapping("/api/contacts")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://conntactmanager.vercel.app")
 public class ContactManagerController {
 
     @Autowired
