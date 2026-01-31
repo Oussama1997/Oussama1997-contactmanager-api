@@ -1,5 +1,5 @@
-# Contact-Manager-Spring-Boot
-A Spring Boot and PostgreSQL–powered Contact Manager with fast CRUD operations for adding, updating, viewing, and deleting contact details.
+# Connectly
+A Contact Manager with fast CRUD operations for adding, updating, viewing, and deleting contact details.
 
 
 
@@ -10,6 +10,8 @@ Key Features:
 - Edit and update contact information
 - Delete unwanted or outdated contacts
 - View all contacts in an organized list
+- View Deleted and Favorites contacts in an organized list
+- Clear Away or restore contacts from Trash
 - RESTful API for CRUD operations
 - Fast backend processing using Spring Boot and JPA
 - Secure and reliable data storage with PostgreSQL
