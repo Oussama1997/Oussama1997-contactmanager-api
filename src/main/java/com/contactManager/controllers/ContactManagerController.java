@@ -1,25 +1,20 @@
-package com.contactManager.controller;
+package com.contactManager.controllers;
 
 import com.contactManager.exceptions.CustomException;
-import com.contactManager.utils.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import com.contactManager.models.Contact;
-import com.contactManager.service.ContactManagerService;
+import com.contactManager.services.ContactManagerService;
 import javax.persistence.EntityNotFoundException;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.Max;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
 @RestController
 @RequestMapping("/api/contacts")
-@CrossOrigin(origins = "https://conntactmanager.vercel.app")
+@CrossOrigin(origins = "${spring.web.cors.allowed-origins}")
 public class ContactManagerController {
 
     @Autowired

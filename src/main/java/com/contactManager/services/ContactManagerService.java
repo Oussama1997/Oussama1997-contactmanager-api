@@ -1,14 +1,11 @@
-package com.contactManager.service;
+package com.contactManager.services;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import com.contactManager.models.Contact;
-import com.contactManager.repository.ContactManagerRepository;
+import com.contactManager.repositories.ContactManagerRepository;
 
 import java.util.List;
 
