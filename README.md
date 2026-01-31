@@ -3,7 +3,7 @@ A Contact Manager with fast CRUD operations for adding, updating, viewing, and d
 
 
 
-Contact Manager is a web-based application built using Spring Boot, PostgreSQL, and a simple HTML/CSS/JavaScript frontend. It provides an efficient way to manage contact details with full CRUD operations. Users can add, update, view, and delete contacts easily through a clean interface. The backend ensures fast performance, secure data handling, and reliable data storage.
+Contact Manager is a web-based application built using Spring Boot, PostgreSQL, and Angular. It provides an efficient way to manage contact details with full CRUD operations. Users can add, update, view, and delete contacts easily through a clean interface. The backend ensures fast performance, secure data handling, and reliable data storage.
 
 Key Features:
 - Add new contacts
@@ -17,14 +17,14 @@ Key Features:
 - Secure and reliable data storage with PostgreSQL
 
 Tech Stack:
-- Frontend: HTML, CSS, JavaScript
+- Frontend: Angular
 - Backend Framework: Spring Boot
 - Programming Language: Java
 - Database: PostgreSQL
 - ORM: Spring Data JPA
 - API Style: RESTful API
 - Build Tool: Maven
-- Testing Tool: Postman
+- Testing Tool: Postman, Mockoon
 - Database Management: pgAdmin
 
 
